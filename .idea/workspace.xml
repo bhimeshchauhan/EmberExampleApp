@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="489448e1-b818-4848-be58-ae4c74eaa9d3" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/acceptance/list-rentals-test.js" afterPath="$PROJECT_DIR$/tests/acceptance/list-rentals-test.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/integration/components/list-filter-test.js" afterPath="$PROJECT_DIR$/tests/integration/components/list-filter-test.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -16,18 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="rental-property-type-test.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/integration/helpers/rental-property-type-test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="rental.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/rental.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -68,14 +57,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list-filter-test.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="list-filter-test.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/integration/components/list-filter-test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+            <state relative-caret-position="660">
+              <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
+                <marker date="1521182799000" expanded="true" signature="952:1090" ph="..." />
+                <marker date="1521182799000" expanded="true" signature="1016:1058" ph="..." />
+                <marker date="1521182799000" expanded="true" signature="1747:1873" ph="..." />
+                <marker date="1521182799000" expanded="true" signature="1807:1845" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list-rentals-test.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/acceptance/list-rentals-test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="42" lean-forward="false" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -132,7 +135,6 @@
         <option value="$PROJECT_DIR$/app/templates/contact.hbs" />
         <option value="$PROJECT_DIR$/app/routes/index.js" />
         <option value="$PROJECT_DIR$/app/templates/application.hbs" />
-        <option value="$PROJECT_DIR$/tests/acceptance/list-rentals-test.js" />
         <option value="$PROJECT_DIR$/app/adapters/application.js" />
         <option value="$PROJECT_DIR$/app/components/rental-listing.js" />
         <option value="$PROJECT_DIR$/tests/integration/components/rental-listing-test.js" />
@@ -147,6 +149,7 @@
         <option value="$PROJECT_DIR$/app/controllers/rentals.js" />
         <option value="$PROJECT_DIR$/app/components/list-filter.js" />
         <option value="$PROJECT_DIR$/tests/integration/components/list-filter-test.js" />
+        <option value="$PROJECT_DIR$/tests/acceptance/list-rentals-test.js" />
       </list>
     </option>
   </component>
@@ -225,6 +228,12 @@
               <item name="super-rentals" type="b2602c69:ProjectViewProjectNode" />
               <item name="super-rentals" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="acceptance" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="super-rentals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="super-rentals" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="integration" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -273,12 +282,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1521167104320</updated>
-      <workItem from="1521167105990" duration="4356000" />
+      <workItem from="1521167105990" duration="4565000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4356000" />
+    <option name="totallyTimeSpent" value="4565000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -391,16 +400,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/acceptance/list-rentals-test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="68" lean-forward="false" selection-start-line="27" selection-start-column="68" selection-end-line="27" selection-end-column="68" />
-          <folding>
-            <element signature="e#0#37#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/integration/components/rental-listing-test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -503,11 +502,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/integration/components/list-filter-test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        <state relative-caret-position="660">
+          <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
+            <marker date="1521182799000" expanded="true" signature="952:1090" ph="..." />
+            <marker date="1521182799000" expanded="true" signature="1016:1058" ph="..." />
+            <marker date="1521182799000" expanded="true" signature="1747:1873" ph="..." />
+            <marker date="1521182799000" expanded="true" signature="1807:1845" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/acceptance/list-rentals-test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="42" lean-forward="false" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
