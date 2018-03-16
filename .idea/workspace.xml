@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="489448e1-b818-4848-be58-ae4c74eaa9d3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/list-filter.js" afterPath="$PROJECT_DIR$/app/components/list-filter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/integration/components/list-filter-test.js" afterPath="$PROJECT_DIR$/tests/integration/components/list-filter-test.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,16 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="rental-property-type.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/helpers/rental-property-type.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="rental-property-type-test.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/integration/helpers/rental-property-type-test.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -69,12 +58,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list-filter.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="list-filter.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/components/list-filter.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
               <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list-filter-test.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/integration/components/list-filter-test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -145,6 +146,7 @@
         <option value="$PROJECT_DIR$/mirage/config.js" />
         <option value="$PROJECT_DIR$/app/controllers/rentals.js" />
         <option value="$PROJECT_DIR$/app/components/list-filter.js" />
+        <option value="$PROJECT_DIR$/tests/integration/components/list-filter-test.js" />
       </list>
     </option>
   </component>
@@ -214,6 +216,24 @@
               <item name="super-rentals" type="462c0819:PsiDirectoryNode" />
               <item name="mirage" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="super-rentals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="super-rentals" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="super-rentals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="super-rentals" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="integration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="super-rentals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="super-rentals" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="integration" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -253,12 +273,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1521167104320</updated>
-      <workItem from="1521167105990" duration="4266000" />
+      <workItem from="1521167105990" duration="4356000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4266000" />
+    <option name="totallyTimeSpent" value="4356000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -478,6 +498,16 @@
         <state relative-caret-position="300">
           <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/integration/components/list-filter-test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

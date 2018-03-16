@@ -2,25 +2,18 @@ import { module, test } from 'qunit';
 import { setupRenderingTest } from 'ember-qunit';
 import { render } from '@ember/test-helpers';
 import hbs from 'htmlbars-inline-precompile';
+import { resolve } from 'rsvp';
 
-module('Integration | Component | list-filter', function(hooks) {
+const ITEMS = [{city: 'San Francisco'}, {city: 'Portland'}, {city: 'Seattle'}];
+const FILTERED_ITEMS = [{city: 'San Francisco'}];
+
+module('Integration | Component | rental-listing', function(hooks) {
   setupRenderingTest(hooks);
 
-  test('it renders', async function(assert) {
-    // Set any properties with this.set('myProperty', 'value');
-    // Handle any actions with this.set('myAction', function(val) { ... });
-
-    await render(hbs`{{list-filter}}`);
-
-    assert.equal(this.element.textContent.trim(), '');
-
-    // Template block usage:
-    await render(hbs`
-      {{#list-filter}}
-        template block text
-      {{/list-filter}}
-    `);
-
-    assert.equal(this.element.textContent.trim(), 'template block text');
+  test('should initially load all listings', async function (assert) {
+    // we want our actions to return promises,
+    //since they are potentially fetching data asynchronously
+    this.set('filterByCity', () => resolve({ results: ITEMS }));
   });
+
 });
