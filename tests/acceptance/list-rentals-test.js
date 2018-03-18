@@ -1,6 +1,7 @@
+import Service from '@ember/service';
 import { module, test } from 'qunit';
 import { setupApplicationTest } from 'ember-qunit';
-import { click, visit, currentURL fillIn, triggerKeyEvent } from '@ember/test-helpers';
+import { click, visit, currentURL, fillIn, triggerKeyEvent } from '@ember/test-helpers';
 
 
 module('Acceptance | my acceptance test', function(hooks) {
